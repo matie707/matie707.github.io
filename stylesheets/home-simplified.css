@@ -83,7 +83,11 @@
 	background: #FFF;
 	width: 100%;
 	padding: 7px 0;
-	max-height:30px;
+	max-height: 95px;
+}
+
+.heroShot {
+	margin: 80px 0px 0px 0px;
 }
 
 .header-top-top p {
