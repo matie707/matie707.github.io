@@ -28,7 +28,7 @@
 				content: "";  
 				border-top: 40px solid transparent;
 	 			border-bottom: 40px solid transparent;
-	  			border-left: 40px solid #3498db;
+	  			border-left: 40px solid #ad1d28;
 				position: absolute; right: -40px; top: 0;
 				z-index: 1;
 			}
