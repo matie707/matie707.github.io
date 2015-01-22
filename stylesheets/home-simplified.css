@@ -71,6 +71,12 @@
   height:inherit;
 }
 
+.box-shadow {
+	-webkit-box-shadow: 0px 4px 22px 0px rgba(0,0,0,0.61);
+	-moz-box-shadow: 0px 4px 22px 0px rgba(0,0,0,0.61);
+	box-shadow: 0px 4px 22px 0px rgba(0,0,0,0.61);
+}
+
 .header-top-top p {
 	padding: 20px 0;
 }
