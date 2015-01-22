@@ -4,15 +4,19 @@
   height:inherit;
 }
 
+.header-top-top p {
+	padding: 20px 0;
+}
+
 .heroShot {
   overflow: hidden;
   max-height: 400px;
 }
   
 .summer-camp-splash h5 {
-    color:#FFFFFF;
-  	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
-  }
+	color:#FFFFFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
   
 .heroShot img {
 	width: 100%;
