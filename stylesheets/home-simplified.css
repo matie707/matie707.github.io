@@ -1,3 +1,18 @@
+#crumbs ul li a {
+	display: block;
+	float: left;
+	height: 50px;
+	background: #ad1d28;
+	text-align: center;
+	padding: 30px 40px 0 40px;
+	position: relative;
+	margin: 0 10px 0 0; 
+	
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
 
 .header-logo {
   width:100%;
