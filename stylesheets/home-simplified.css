@@ -7,10 +7,17 @@
 	padding: 20px 40px 20px 40px;
 	position: relative;
 	margin: 0 10px 0 0; 
-	
 	font-size: 20px;
 	text-decoration: none;
 	color: #fff;
+}
+
+#crumbs ul li a:after {
+	content: "";  
+	border-top: 40px solid red;
+	border-bottom: 40px solid red;
+	border-left: 40px solid blue;
+	position: absolute; right: -40px; top: 0;
 }
 
 
