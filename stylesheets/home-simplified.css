@@ -45,7 +45,7 @@
 /* for small screen (tablet and phone) */
 @media (max-width: 992px) { 
 .heroHeading {
-  margin-top: -150px;
+  margin-top: -190px;
   padding: 0px;
 }
 
