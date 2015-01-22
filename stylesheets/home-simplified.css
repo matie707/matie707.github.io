@@ -42,8 +42,8 @@
 }
 
   
-/* for mobile */
-@media (max-width: 768px) { 
+/* for small screen (tablet and phone) */
+@media (max-width: 992px) { 
 .heroHeading {
   margin-top: -150px;
   padding: 0px;
