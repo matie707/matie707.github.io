@@ -45,19 +45,25 @@
 
 @media (max-width: 992px) { 
 .heroHeading {
-  margin-top: -200px;
+  margin-top: 0px;
   padding: 0px;}
 }
   
   
 /* for mobile */
 @media (max-width: 768px) { 
-.heroHeading {margin-top: 0px;} 
-.heroHeading h1 {
-  color: #0899cc;
-  text-shadow: 0 0 0px rgba(0, 0, 0, 0.0),0 0 0px rgba(0, 0, 0, 0.0);
-
+.heroHeading {
+  margin-top: -150px;
+  padding: 0px;
 }
+
+.heroHeading h1 {
+  color: #FFF;
+  text-align: left;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+  font-weight:bold;
+}
+
 
 .heroShot {
   overflow: hidden;
