@@ -3,3 +3,89 @@
   width:100%;
   height:inherit;
 }
+
+.heroShot {
+  overflow: hidden;
+  max-height: 400px;
+}
+  
+.summer-camp-splash h5 {
+    color:#FFFFFF;
+  	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+  }
+  
+.heroShot img {
+	width: 100%;
+}
+
+.heroShot-mobile {
+  overflow: hidden;
+  max-height: 600px;
+  display:none;
+}
+  
+.heroShot-mobile img {
+	width: 100%;
+	display:none;
+}
+  
+.heroHeading {
+	margin-top: -250px;
+  padding: 0px;
+}
+
+.heroHeading h1 {
+  color: #FFF;
+  text-align: left;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+  font-weight:bold;
+}
+
+
+
+@media (max-width: 992px) { 
+.heroHeading {
+  margin-top: -200px;
+  padding: 0px;}
+}
+  
+  
+/* for mobile */
+@media (max-width: 768px) { 
+.heroHeading {margin-top: 0px;} 
+.heroHeading h1 {
+  color: #0899cc;
+  text-shadow: 0 0 0px rgba(0, 0, 0, 0.0),0 0 0px rgba(0, 0, 0, 0.0);
+
+}
+
+.heroShot {
+  overflow: hidden;
+  max-height: 400px;
+  display:none;
+}
+  
+.heroShot img {
+	width: 100%;
+	display:none;
+}
+
+.heroShot-mobile {
+  overflow: hidden;
+  max-height: 600px;
+  display:block;
+}
+  
+.heroShot-mobile img {
+	width: 100%;
+	display:block;
+}
+
+
+.hidden-phone{ display:none;}
+.heroShot img {margin-top: 60px;}
+}
+
+
+
+
