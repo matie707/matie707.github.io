@@ -41,14 +41,6 @@
   font-weight:bold;
 }
 
-
-
-@media (max-width: 992px) { 
-.heroHeading {
-  margin-top: 0px;
-  padding: 0px;}
-}
-  
   
 /* for mobile */
 @media (max-width: 768px) { 
