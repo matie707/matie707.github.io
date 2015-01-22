@@ -97,28 +97,26 @@
 .red-bkgrnd p {
 	color: #FFFFFF;
 }
-
-.heroShot {
-  overflow: hidden;
-  max-height: 400px;
-}
   
 .summer-camp-splash h5 {
 	color:#FFFFFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
 }
-  
+
+.heroShot {
+  overflow: hidden;
+}
+
+.heroShot-mobile {
+  overflow: hidden;
+  display:none;
+}
+
 .heroShot img {
 	width: 100%;
 	margin: 80px 0px 0px 0px;
 }
 
-.heroShot-mobile {
-  overflow: hidden;
-  max-height: 600px;
-  display:none;
-}
-  
 .heroShot-mobile img {
 	width: 100%;
 	display:none;
@@ -155,7 +153,6 @@
 
 .heroShot {
   overflow: hidden;
-  max-height: 400px;
   display:none;
 }
   
@@ -166,7 +163,6 @@
 
 .heroShot-mobile {
   overflow: hidden;
-  max-height: 600px;
   display:block;
 }
   
