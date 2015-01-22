@@ -105,11 +105,13 @@
 
 .heroShot {
   overflow: hidden;
+  max-height:400px;
 }
 
 .heroShot-mobile {
   overflow: hidden;
   display:none;
+  max-height:600px;
 }
 
 .heroShot img {
