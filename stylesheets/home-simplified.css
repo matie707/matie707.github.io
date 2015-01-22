@@ -8,6 +8,10 @@
 	padding: 20px 0;
 }
 
+.red-bkgrnd {
+	background-color: #ad1d28;
+}
+
 .heroShot {
   overflow: hidden;
   max-height: 400px;
