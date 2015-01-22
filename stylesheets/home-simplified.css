@@ -15,7 +15,7 @@
 			display: block;
 			float: left;
 			height: 80px;
-			background: #ad1d28;
+			background: #7E7E7E;
 			text-align: center;
 			padding: 30px 40px 0 80px;
 			position: relative;
@@ -29,7 +29,7 @@
 				content: "";  
 				border-top: 40px solid transparent;
 	 			border-bottom: 40px solid transparent;
-	  			border-left: 40px solid #ad1d28;
+	  			border-left: 40px solid #7E7E7E;
 				position: absolute; right: -40px; top: 0;
 				z-index: 1;
 			}
@@ -58,10 +58,10 @@
 				}
 			
 			#crumbs ul li a:hover {
-				background: #1D6BAD;
+				background: #494949;
 			}
 				#crumbs ul li a:hover:after {
-					border-left-color: #1D6BAD;
+					border-left-color: #494949;
 				}
 		
 		
