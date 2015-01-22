@@ -11,6 +11,9 @@
 .red-bkgrnd {
 	background-color: #ad1d28;
 }
+.red-bkgrnd p {
+	color: #FFFFFF;
+}
 
 .heroShot {
   overflow: hidden;
