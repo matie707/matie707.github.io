@@ -30,6 +30,7 @@
 .heroShot {
   overflow: hidden;
   max-height:400px;
+  margin-top: 80px;
 }
 .heroShot-mobile {
   overflow: hidden;
