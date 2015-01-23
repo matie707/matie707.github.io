@@ -30,7 +30,6 @@
 .heroShot {
   overflow: hidden;
   max-height:400px;
-  margin-top: 80px;
 }
 .heroShot-mobile {
   overflow: hidden;
@@ -40,11 +39,13 @@
 .heroShot img {
 	width: 100%;
 	margin: 0px;
+	margin-top: 80px;
 }
 .heroShot-mobile img {
 	width: 100%;
 	display:none;
 	margin: 0px;
+	margin-top: 88px;
 }
   
 .heroHeading {
