@@ -37,13 +37,13 @@
 .heroShot img {
 	width: 100%;
 	margin: 0px;
-	margin-top: 80px;
+	margin-top: 0px;
 }
 .heroShot-mobile img {
 	width: 100%;
 	display:none;
 	margin: 0px;
-	margin-top: 88px;
+	margin-top: 0px;
 }
   
 .heroHeading {
