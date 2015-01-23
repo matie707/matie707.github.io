@@ -1,6 +1,6 @@
 .header-logo {
-  width:100%;
-  height:inherit;
+	height: auto;
+	padding: 5px;
 }
 
 .box-shadow {
