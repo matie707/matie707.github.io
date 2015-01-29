@@ -8,15 +8,16 @@
 
 <h1>JQuery Practice 1</h1>
 
-<canvas id="maties_canvas">
+<canvas id="maties_canvas" width="100%" height="600">
 
 </canvas>
 
 <script>
-  var c = document.getElementById("maties_canvas");
-  var ctx = c.getContext("2d");
-  ctx.fillStyle = "#FF0000";
-  ctx.fillRect(0,0,600,600);
+  var canvas = document.getElementById("maties_canvas");
+  var canvas_art = canvas.getContext("2d");
+  canvas_art.fillStyle = "purple";
+  canvas_art.fillRect(0,0,600,600);
+  canvas_art.translate(radius, radius);
 </script>
 
 
