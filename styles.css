@@ -1,3 +1,10 @@
 body {
- background: #ffffff url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg") no-repeat right top;
+
+   background: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
 }
