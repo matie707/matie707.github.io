@@ -4,7 +4,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:100%;
+   background-size: 100%;
 }
 
 .gallery-featured {
