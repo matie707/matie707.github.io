@@ -19,6 +19,7 @@ img {
 }
 .row {
    position:relative;
+   width:960px;
    clear:both;
    top:0;
    left:0;
