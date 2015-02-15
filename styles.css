@@ -8,16 +8,12 @@ body {
 }
 
 .gallery-featured {
-    -ms-transform: rotate(0deg); /* IE 9 */
-    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
 }
+
 img {
    max-width: 100%;
    margin: 0;
    padding: 0;
-   position: relative;
-   left: 0;
 }
 
 .main-container {
@@ -26,8 +22,6 @@ img {
    top:0;
    left:0;
    right:0;
-   text-align:center;
-   vertical-align:top;
 }
 .colspan-3 {
    width: 33.33%;
@@ -35,16 +29,15 @@ img {
 }
 .row {
    position:relative;
-   max-width:100%;
+   width:100%;
    clear:both;
    top:0;
    left:0;
    right:0;
-   vertical-align: top;
+   vertical-align: middle;
    overflow: hidden;
    margin: auto;
    padding: 0px 55px;
-   text-align: center;
 
 }
 
@@ -62,7 +55,5 @@ img {
          top:0;
          left:0;
          right:0;
-         text-align:center;
-         vertical-align:top;
       }
 }
