@@ -4,6 +4,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  max-width:100%;
 }
 
 img {
@@ -19,6 +20,7 @@ img {
 }
 .row {
    position:relative;
+   max-width:100%;
    width:960px;
    clear:both;
    top:0;
