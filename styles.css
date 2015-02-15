@@ -1,10 +1,10 @@
 body {
-   background: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   background-size: 100%;
+   background: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-color: rgb(44, 64, 62);
 }
 
 .gallery-featured {
