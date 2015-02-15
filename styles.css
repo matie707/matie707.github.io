@@ -8,9 +8,9 @@ body {
 }
 
 .gallery-featured {
-    -ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
-    transform: rotate(30deg);
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
 }
 img {
    max-width: 100%;
