@@ -6,7 +6,18 @@ body {
   background-size: cover;
 }
 
-row {
+img {
+   max-width: 100%;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   left: 0;
+}
+.colspan-3 {
+   width: 25%;
+   float: left;
+}
+.row {
    position:relative;
    clear:both;
    top:0;
