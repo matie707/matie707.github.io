@@ -7,6 +7,11 @@ body {
   max-width:100%;
 }
 
+.gallery-featured {
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
 img {
    max-width: 100%;
    margin: 0;
