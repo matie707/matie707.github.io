@@ -24,6 +24,12 @@ img {
    top:0;
    left:0;
    right:0;
+   vertical-align: top;
+   overflow: hidden;
+   margin: auto;
+   padding: 0px 55px;
+   text-align: center;
+
 }
 
 .page-title-large {
