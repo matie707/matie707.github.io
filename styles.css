@@ -6,6 +6,13 @@ body {
   background-size: cover;
 }
 
+row {
+   position:relative;
+   clear:both;
+   top:0;
+   left:0;
+   right:0;
+}
 
 .page-title-large {
    color: #FFFFFF;
