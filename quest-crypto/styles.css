@@ -234,13 +234,12 @@ ul.list-1 {
 @media only screen and (max-width: 540px) {
 
 .back-icon {
-    position: absolute;
-    z-index: 1;
-    width: 23px;
-    height: 37px;
-    margin-left: 37px;
-    margin-top: 40px;
+    width: 19px;
+    height: 26px;
+    margin-left: 16px;
+    margin-top: 16px;
 }
+
 }
 
 
@@ -263,3 +262,15 @@ a.GPS-address:hover {
 .slick-dots {
     bottom: -31px !important;
 }
+
+
+/* Small size styles  */
+@media only screen and (max-width: 540px) {
+
+.slick-dots li button:before {
+    margin-top: 28px;
+}
+
+
+}
+
