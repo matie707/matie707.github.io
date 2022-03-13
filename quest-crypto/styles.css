@@ -50,19 +50,29 @@
 .padding-60px {
 	height: 60px;
 }
-
+a.marketplace-header-link {
+    color: #000000;
+    text-decoration: none;
+}
+a.marketplace-header-link:hover {
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.75;
+}
 .marketplace-header {
     font-family: "nexa-regular", sans-serif;
     font-size: 17px;
+    margin-bottom: 0px;
 }
 .marketplace-subheader {
     font-family: "nexa-bold", sans-serif;
     font-size: 23px;
 }
 .marketplace-icon {
-    width: 27px;
-    margin-right: 8px;
-    margin-top: -6px;
+    width: 23px;
+    margin-right: 5px;
+    margin-top: -7px;
+    margin-left: -1px;
 }
 a.property-card {
     display: block;
@@ -219,6 +229,21 @@ ul.list-1 {
 .back-icon:hover {
     opacity: 0.75;
 }
+
+/* Small size styles  */
+@media only screen and (max-width: 540px) {
+
+.back-icon {
+    position: absolute;
+    z-index: 1;
+    width: 23px;
+    height: 37px;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+}
+
+
 a.GPS-address {
     color: #0d6efd;
     text-decoration: none;
@@ -229,4 +254,12 @@ a.GPS-address:hover {
 
 .slider-nav img:hover {
     cursor: pointer;
+}
+
+
+.slick-dots li button:before {
+    font-size: 11px !important;
+}
+.slick-dots {
+    bottom: -31px !important;
 }

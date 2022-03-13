@@ -3,18 +3,13 @@
     $('div.hidden').fadeIn("slow").removeClass('hidden');
 
       
-     $('.slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav'
-    });
-    $('.slider-nav').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.slider-for',
+
+    $('.slider-for').slick({
       dots: true,
-      centerMode: true,
-      focusOnSelect: true
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      accessibility: true,
+      arrows:false
     });
