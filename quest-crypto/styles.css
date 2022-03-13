@@ -234,8 +234,8 @@ ul.list-1 {
 @media only screen and (max-width: 540px) {
 
 .back-icon {
-    width: 19px;
-    height: 26px;
+    width: 9px;
+    height: 15px;
     margin-left: 16px;
     margin-top: 16px;
 }
@@ -269,6 +269,11 @@ a.GPS-address:hover {
 
 .slick-dots li button:before {
     margin-top: 28px;
+}
+
+.slick-dots li {
+
+    margin: 0px !important;
 }
 
 
