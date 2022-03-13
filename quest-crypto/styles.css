@@ -140,6 +140,11 @@ a.property-card:hover {
     margin-top: -2px;
 }
 
+@media only screen and (max-width: 540px) {
+.price-bigger {
+    margin-top: 33px;
+}
+}
 .price-bigger {
     color: #C4A169;
     font-size: 18px;
@@ -278,4 +283,5 @@ a.GPS-address:hover {
 
 
 }
+
 
