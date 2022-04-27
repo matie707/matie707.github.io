@@ -1,6 +1,9 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+/**************************/
+/* Link Styling & Effects */
+/**************************/
 .animate:hover {
     transform: scale(1.03) ;
     transition: all .2s ease-in-out; 
@@ -70,3 +73,4 @@ p, ul, li {
     font-weight: 400 !important;
     color: #808080;
 }
+
